@@ -1,0 +1,20 @@
+Operations= input("Enter a Oprator You want to use : +, -, *, /: ")
+Num1= float(input("Enter a Number1: "))
+Num2 = float(input("Enter a Number2: "))
+
+if Operations == "+" :
+    result = Num1 + Num2
+    print(result)
+elif Operations== "-":
+    result = Num1 - Num2
+    print(result)
+elif Operations== "*":
+    result = Num1 * Num2
+    print(result)
+elif Operations== "/":
+    result = Num1 / Num2
+    print(result)
+    if Num1==0 :
+        print("Operation cant be performed")
+else:
+    print(f"{Operations} is not a valid oprator")
